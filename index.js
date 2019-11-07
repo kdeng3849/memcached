@@ -1,5 +1,8 @@
 var express = require('express');
+var morgan = require('morgan');
+
 var app = express();
+app.use(morgan('common'));
 
 const mariadb = require('mariadb');
 const pool = mariadb.createPool({host: 'localhost', user: 'root', database: 'hw8', connectionLimit: 5});
@@ -43,4 +46,5 @@ app.get('/hw8', function(req, res){
     });
 });
 
-app.listen(5000);
+// app.listen(5000);
+app.listen(80);
