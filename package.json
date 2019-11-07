@@ -1,5 +1,5 @@
 {
-  "name": "memcached",
+  "name": "hw8",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mariadb": "^2.1.2"
+    "express": "^4.17.1",
+    "mariadb": "^2.1.2",
+    "memcached": "^2.2.2"
   }
 }
