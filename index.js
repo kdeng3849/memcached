@@ -34,7 +34,7 @@ async function asyncFunction(club, pos) {
   }
 }
 
-app.get('/', function(req, res){
+app.get('/hw8', function(req, res){
     let club = req.query.club;
     let pos = req.query.pos;
 
