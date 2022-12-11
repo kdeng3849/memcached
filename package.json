@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mariadb": "^2.1.2",
     "memcached": "^2.2.2",
     "morgan": "^1.9.1"
